@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    color: black;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Colours for each box */
+
+.clear {
+    background: blue;
+    flex: 50%;
+}
+
+.box0 {
+    background: yellow;
+    flex: 25%;
+}
+
+.equal {
+    background: blue;
+    flex: 50%;
+}
+
+.box1 {
+    background: blue;
+    flex: 25%;
+}
+
+.box2 {
+    background: yellow;
+    flex: 25%;
+}
+
+.box3 {
+    background: blue;
+    flex: 25%;
+}
+
+.box4 {
+    background: yellow;
+    flex: 25%;
+}
+
+.box5 {
+    background: blue;
+    flex: 25%;
+}
+
+.box6 {
+    background: yellow;
+    flex: 25%;
+}
+
+.box7 {
+    background: blue;
+    flex: 25%;
+}
+
+.box8 {
+    background: yellow;
+    flex: 25%;
+}
+
+.box9 {
+    background: blue;
+    flex: 25%;
+}
+
+.minus {
+    background: blue;
+    flex: 25%;
+}
+
+.multiply {
+    background: blue;
+    flex: 25%;
+}
+
+.plus {
+    background: blue;
+    flex: 25%;
+}
+
+.divide {
+    background: blue;
+    flex: 25%;
+}
+
+.answer {
+    background: blue;
+    flex: 100%;
+    text-align: right;
+    border: 0.5mm;
+}
+
+.clear1 {
+    background: blue;
+    flex: 25%;
+}
+
+.decimal {
+    background: blue;
+    flex: 25%;
+}
+
+
+.container {
+    /* display:flex changes the flow of our page * and allows us to use flex properties */
+    display: flex;
+    /* box's inside the container span the whole screen height; */
+    min-height: 100vh;
+    flex-wrap: wrap-reverse
+}
+
+.box {
+    width: 25%;
+
+}
